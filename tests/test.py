@@ -33,7 +33,7 @@
 from __future__ import print_function
 
 import sys, string
-
+import inspect
 # update sys.path when running in the build directory
 from util import get_sys_path
 sys.path = get_sys_path()
