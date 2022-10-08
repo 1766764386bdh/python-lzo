@@ -35,7 +35,7 @@ from __future__ import print_function
 import sys, string
 
 # update sys.path when running in the build directory
-from tests.util import get_sys_path
+from util import get_sys_path
 sys.path = get_sys_path()
 import time
 start=time.perf_counter()
