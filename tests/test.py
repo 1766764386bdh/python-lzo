@@ -137,5 +137,3 @@ if __name__ == "__main__":
         else:
             test_func()
             
-end=time.perf_counter()
-print('Running time: %s Seconds'%(end-start))   
